@@ -5,3 +5,6 @@ clippy:
 
 test:
 	cargo test
+
+benchmarks:
+	cargo criterion --bench benchmark
